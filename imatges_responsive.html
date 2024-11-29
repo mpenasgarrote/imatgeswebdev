@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+
+		<title>Responsive</title>
+	</head>
+	<body>
+		<div>
+			<h2>Pràctica 3.</h2>
+			<img
+				src="./images/paisatge.webp"
+				alt="Cyberpunk 2077 bg"
+				srcset="./images/paisatge.webp 380w, ./images/cuadre.webp 800w"
+				sizes="(min-width: 600px) and (max-width: 1200px) 30vw, (min-width: 1200px) 50vw"
+			/>
+		</div>
+
+		<hr />
+
+		<div>
+			<h2>Pràctica 4.</h2>
+			<picture>
+				<source media="(min-width: 850px)" srcset="./images/cuadre.webp" />
+				<source media="(min-width: 450px)" srcset="./images/paisatge.webp" />
+				<img src="./images/beers.jpg" alt="Imatge" style="width: 400px" />
+			</picture>
+		</div>
+
+		<a href="./index.html">
+			<button>Return to index</button>
+		</a>
+	</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./lightbox.css" />
+		<link href="./dist/css/lightbox.css" rel="stylesheet" />
+		<title>Lightbox</title>
+	</head>
+	<body>
+		<div>
+			<h2>Pràctica 5.</h2>
+			<div class="imatges">
+				<a
+					href="./dist/images/paisatge.webp"
+					data-lightbox="roadtrip"
+					data-title="My caption"
+				>
+					<img src="./images/paisatge.webp" alt="Cuadre" />
+				</a>
+				<a
+					href="./images/cuadre.webp"
+					data-lightbox="roadtrip"
+					data-title="Cuadre"
+				>
+					<img src="./images/cuadre.webp" alt="Cuadre" />
+				</a>
+				<a href="./images/Logo.webp" data-lightbox="roadtrip" data-title="Logo">
+					<img src="./images/Logo.webp" alt="Logo" />
+				</a>
+				<a
+					href="./images/beers.jpg"
+					data-lightbox="roadtrip"
+					data-title="Beers"
+				>
+					<img src="./images/beers.jpg" alt="Beers" />
+				</a>
+			</div>
+		</div>
+
+		<a href="./index.html">
+			<button>Return to index</button>
+		</a>
+
+		<script src="./dist/js/lightbox-plus-jquery.js"></script>
+	</body>
+</html>

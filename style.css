@@ -1,0 +1,45 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f9f9f9;
+	margin: 0;
+	padding: 20px;
+}
+div {
+	margin-bottom: 20px;
+	padding: 15px;
+	background-color: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h2 {
+	color: #333;
+}
+.imatges {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px; /* Space between images */
+}
+.imatges a {
+	flex: 1 1 calc(25% - 10px); /* Four images per row with gap */
+	max-width: calc(25% - 10px); /* Ensure images don't exceed this width */
+}
+img {
+	max-width: 100%; /* Responsive images */
+	height: auto; /* Maintain aspect ratio */
+	border-radius: 5px;
+	display: block; /* Remove bottom space */
+}
+button {
+	padding: 10px 20px;
+	font-size: 16px;
+	color: white;
+	background-color: #007bff; /* Bootstrap primary color */
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	margin-top: 15px;
+}
+button:hover {
+	background-color: #0056b3; /* Darker shade on hover */
+}
